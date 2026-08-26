@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SSOR</fullName>
+    <active>true</active>
+    <businessProcess>SSOR</businessProcess>
+    <description>Service Sales Operations Request</description>
+    <label>SSOR</label>
+    <picklistValues>
+        <picklist>Assigned_Team__c</picklist>
+        <values>
+            <fullName>AXIS Business Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AXIS Integration Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chatter Support Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LMS Support Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCloud Support Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SFDC Support Team</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
