@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Request</fullName>
+    <active>true</active>
+    <businessProcess>Internal Requests</businessProcess>
+    <description>Use this record type to submit an internal request (agency onboarding, surgeons upload, reports/dashboards, etc...)</description>
+    <label>Internal Request</label>
+    <picklistValues>
+        <picklist>Assigned_Team__c</picklist>
+        <values>
+            <fullName>AXIS Business Team</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>
