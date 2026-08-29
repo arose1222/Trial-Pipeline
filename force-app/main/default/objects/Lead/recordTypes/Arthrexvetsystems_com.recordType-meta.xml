@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Arthrexvetsystems_com</fullName>
+    <active>true</active>
+    <businessProcess>Digital Campaigns</businessProcess>
+    <compactLayoutAssignment>Arthrex_Vet_Compact_Layout</compactLayoutAssignment>
+    <label>Arthrexvetsystems.com</label>
+</RecordType>

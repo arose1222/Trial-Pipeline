@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Arthrex.com</fullName>
+        <default>false</default>
+        <label>Arthrex.com_test</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Arthrexvetsystems.com</fullName>
+        <default>false</default>
+        <label>Arthrexvetsystems.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ASC Digital Lead</fullName>
+        <default>false</default>
+        <label>ASC Digital Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Banner_Ad</fullName>
+        <default>false</default>
+        <label>Banner Ad</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CVENT</fullName>
+        <default>false</default>
+        <label>CVENT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OrthoPedia</fullName>
+        <default>false</default>
+        <label>OrthoPedia</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SFMC - Community</fullName>
+        <default>false</default>
+        <label>SFMC - Community</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SFMC - Landing Page</fullName>
+        <default>false</default>
+        <label>SFMC - Landing Page</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sternalclosure.arthrex.com</fullName>
+        <default>false</default>
+        <label>Sternalclosure.arthrex.com</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgeon App</fullName>
+        <default>false</default>
+        <label>Surgeon App</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OrthoPedia Vet API Change</fullName>
+        <default>false</default>
+        <label>OrthoPedia Vet APIChange</label>
+    </standardValue>
+</StandardValueSet>
