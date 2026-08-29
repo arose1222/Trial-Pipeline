@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Surgeons</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Secondary_HCP_Compact_Layout</compactLayoutAssignment>
+    <description>Non-Surgeons are: HCP (RN, PA, NP) or Office Personnel</description>
+    <label>Secondary HCP</label>
+</RecordType>

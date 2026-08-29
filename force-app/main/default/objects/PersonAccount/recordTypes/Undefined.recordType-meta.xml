@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Undefined</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Other_Person_Account_Compact_Layout</compactLayoutAssignment>
+    <description>Undefined Records: Require verification process</description>
+    <label>Other</label>
+</RecordType>
