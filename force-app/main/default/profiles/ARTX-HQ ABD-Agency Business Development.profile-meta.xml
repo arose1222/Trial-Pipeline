@@ -3,6 +3,11 @@
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <custom>true</custom>
     <description>This Profile Includes: Sales Ops Users</description>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Mark_Picklist_on_Opportunity__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <loginFlows>
         <flow>Eula_2_0</flow>
         <flowType>UI</flowType>
