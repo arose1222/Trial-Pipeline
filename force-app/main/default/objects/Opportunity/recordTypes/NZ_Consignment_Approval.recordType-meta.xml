@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NZ_Consignment_Approval</fullName>
+    <active>true</active>
+    <businessProcess>NZ Consignment Approval</businessProcess>
+    <compactLayoutAssignment>NZ_Consignment_Approval</compactLayoutAssignment>
+    <label>NZ Consignment Approval</label>
+    <picklistValues>
+        <picklist>Mark_Picklist_on_Opportunity__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
