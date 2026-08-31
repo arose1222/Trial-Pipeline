@@ -3,6 +3,11 @@
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <custom>true</custom>
     <description>Read Only to all objects. Providing these users the ability to create tickets.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Mark_Picklist_on_Opportunity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <loginFlows>
         <flow>Eula_2_0</flow>
         <flowType>UI</flowType>
