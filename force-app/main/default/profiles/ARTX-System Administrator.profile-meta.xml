@@ -10,22 +10,22 @@
     </categoryGroupVisibilities>
     <classAccesses>
         <apexClass>AccountAutomations</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>AccountAutomationsTest</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
-    <custom>false</custom>
+    <custom>true</custom>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Account.Copado_Test__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Bicycle__c.Type__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -33,9 +33,9 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Case__c.MFA_Test__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -57,6 +57,13 @@
         <layout>Opportunity-RFP</layout>
         <recordType>Opportunity.RFP</recordType>
     </layoutAssignments>
+    <loginFlows>
+        <flow>Eula_2_0</flow>
+        <flowType>UI</flowType>
+        <friendlyName>Eula 2.0</friendlyName>
+        <uiLoginFlowType>VisualWorkflow</uiLoginFlowType>
+        <useLightningRuntime>true</useLightningRuntime>
+    </loginFlows>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -154,7 +161,7 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Case.GLCC_Support</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -174,7 +181,7 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Case.Hierarchy_Change_Request</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -182,14 +189,15 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>Case.Issue</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Case.LATAM_Conventions</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -204,12 +212,12 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Case.OrthoIllustrated_Request</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Case.Orthopedia_Request</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -224,18 +232,17 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Case.Reverse_Logistics</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
+        <default>false</default>
         <recordType>Case.SEMS</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Case.SERT</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -268,20 +275,20 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>true</default>
-        <personAccountDefault>true</personAccountDefault>
+        <default>false</default>
         <recordType>Opportunity.Consignment_Approval</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
+        <personAccountDefault>true</personAccountDefault>
         <recordType>Opportunity.Instrument_Purchase</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.Integration_Pipeline</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -306,12 +313,12 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.RFP</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.Service_Renewal</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -321,12 +328,12 @@
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.Surgeon_Opportunity</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Opportunity.Surgeon_Opportunity_New</recordType>
-        <visible>true</visible>
+        <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -351,18 +358,6 @@
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
-        <name>AIViewInsightObjects</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AcceptInboundBundling</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AccessOrchestrationObjects</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ActivateContract</name>
     </userPermissions>
     <userPermissions>
@@ -375,11 +370,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>AddDirectMessageMembers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AllowObjectDetectionTraining</name>
+        <name>AllowLightningLogin</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -399,27 +390,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>AppFrameworkManageApp</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AppFrameworkManageTemplate</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ApprovalAdmin</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ApprovalDesigner</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ApproveContract</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ArchiveArticles</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -439,23 +410,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CanAccessCE</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CanApproveUninstalledApps</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>CanInsertFeedSystemFields</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>CanUseNewDashboardBuilder</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CanVerifyComment</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -487,23 +446,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ClientSecretRotation</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ConnectOrgToEnvironmentHub</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ConsentApiUpdate</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ContentAdministrator</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ContentWorkspaces</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -527,15 +470,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CreateLtngTempFolder</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>CreatePackaging</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>CreateReportFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateReportInLightning</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -551,15 +490,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>CustomizeApplication</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>DataExport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>DecisionTableExecUserAccess</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -584,10 +515,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>EditBillingInfo</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EditBrandTemplates</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -643,19 +570,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EditTranslation</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>EmailMass</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>EmailSingle</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>EnableCommunityAppLauncher</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -667,31 +586,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ExternalClientAppAdmin</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ExternalClientAppDeveloper</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ExternalClientAppViewer</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>FieldServiceAccess</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>FreezeUsers</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>GiveRecognitionBadge</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>GrantOutboundBundling</name>
+        <name>GovernNetworks</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -704,18 +603,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ImportPersonal</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>InboundMigrationToolsUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>InstallPackaging</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>IntegrationIntelligenceUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -735,23 +622,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageApiNamedQueries</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageAuthProviders</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageBusinessHourHolidays</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageC360AConnections</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageCMS</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -767,7 +642,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageCertificates</name>
+        <name>ManageChatterMessages</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -775,19 +650,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageContentProperties</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageContentTaxonomy</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageContentTypes</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageCustomDomains</name>
+        <name>ManageCssUsers</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -796,10 +659,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageCustomReportTypes</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageCustomerDataOptOut</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -812,10 +671,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageDataIntegrations</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageDevSandboxes</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -836,26 +691,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageExchangeConfig</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageFilesAndAttachments</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageForecastingCustomData</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageHealthCheck</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageHerokuAppLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageHubConnections</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -891,15 +726,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageMobileAppSecurity</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageNetworks</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageOrchInstsAndWorkItems</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -912,10 +739,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManagePasswordPolicies</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManagePreferenceCenter</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -936,10 +759,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageRecommendationStrategies</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ManageReleaseUpdates</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -971,10 +790,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageSubscriptions</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageSynonyms</name>
     </userPermissions>
     <userPermissions>
@@ -983,19 +798,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ManageTrustMeasures</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ManageUnlistedGroups</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>MarketingActionableListUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1015,14 +822,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ModifyAllPolicyCenterPolicies</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ModifyDataClassification</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ModifyMetadata</name>
     </userPermissions>
     <userPermissions>
@@ -1035,47 +834,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>OutboundMigrationToolsUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>OverrideForecasts</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>Packaging2</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>Packaging2Delete</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>PlatformWebIdeUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>PrivacyDataAccess</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>PublishArticles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>PublishPackaging</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>PublishTranslation</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>QrCodeGeneratorMobilePublisherPlayground</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>RemoveDirectMessageMembers</name>
+        <name>PasswordNeverExpires</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1087,11 +850,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>RunGlobalOptimization</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>RunInDayOptimization</name>
+        <name>RunFlow</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1111,15 +870,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SendCustomNotifications</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>SendSitRequests</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SetAdvancedOptimizationFilters</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1139,31 +890,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>SubmitForTranslation</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>SubmitMacrosAllowed</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SubscribeDashboardRolesGrps</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SubscribeDashboardToOtherUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SubscribeReportRolesGrps</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SubscribeReportToOtherUsers</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SubscribeReportsRunAsUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1172,14 +899,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SubscribeToLightningReports</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>TerritoryOperations</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>TraceXdsQueries</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1215,35 +934,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewAllPolicyCenterPolicies</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewAllProfiles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewAllUsers</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewApiNamedQueries</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewArchivedArticles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewClientSecret</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewConsumption</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewContentTaxonomy</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1259,15 +954,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewDeveloperName</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewDraftArticles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewEmailMessagingSetup</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1275,23 +962,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewFlowUsageAndFlowEventData</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewHealthCheck</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewHelpLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewLicenseUtilization</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewMLModels</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1300,14 +971,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewPlatformEvents</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewProductLimits</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewPublicCapstoneFolders</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -1323,22 +986,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewSALifecycle</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewSetup</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewSetupAuditTrail</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewTrustMeasures</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewUserPII</name>
     </userPermissions>
 </Profile>
