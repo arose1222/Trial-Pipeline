@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Surgeon_Opportunity_New</fullName>
+    <active>true</active>
+    <businessProcess>Surgeon Opportunity New</businessProcess>
+    <compactLayoutAssignment>Surgeon_Opportunity_New_Compact_Layout</compactLayoutAssignment>
+    <label>Surgeon Opportunity</label>
+    <picklistValues>
+        <picklist>Mark_Picklist_on_Opportunity__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
