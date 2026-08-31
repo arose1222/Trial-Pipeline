@@ -18,3 +18,11 @@
 **/lwc/**
 # Exclude all Layouts
 **/layouts/*.layout-meta.xml
+# This pattern targets all field files, including Picklist and MultiselectPicklist field types, across all objects.
+**/objects/**/fields/*.field-meta.xml
+# Shared picklist values defined as Global Value Sets are stored here.
+**/globalValueSets/*.globalValueSet-meta.xml
+# (Optional) Exclude standard value sets from auto-resolve.
+# Standard picklist values (e.g., Lead Status, Opportunity Stage) live here.
+**/standardValueSets/*.standardValueSet-meta.xml
+
