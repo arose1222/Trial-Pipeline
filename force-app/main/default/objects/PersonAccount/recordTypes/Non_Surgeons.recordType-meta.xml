@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Surgeons</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Secondary_HCP_Compact_Layout</compactLayoutAssignment>
+    <description>Non-Surgeons are: HCP (RN, PA, NP) or Office Personnel</description>
+    <label>Secondary HCP</label>
+    <picklistValues>
+        <picklist>Clinical_Training__pc</picklist>
+        <values>
+            <fullName>DPM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD%2FDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mark Dev2 Clinical Training Add</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurse Practitioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physician%E2%80%99s Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scrub Technician</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
