@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assigned_Team__c</fullName>
+    <inlineHelpText>Select Value here to route it to the correct Team</inlineHelpText>
+    <label>Assigned Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SFDC Support Team</fullName>
+                <default>false</default>
+                <label>SFDC Support Team Dev2</label>
+            </value>
+            <value>
+                <fullName>AXIS Business Team</fullName>
+                <default>false</default>
+                <label>AXIS Business Team</label>
+            </value>
+            <value>
+                <fullName>AXIS Integration Team</fullName>
+                <default>false</default>
+                <label>AXIS Integration Team</label>
+            </value>
+            <value>
+                <fullName>LMS Support Team</fullName>
+                <default>false</default>
+                <label>LMS Support Team</label>
+            </value>
+            <value>
+                <fullName>Chatter Support Team</fullName>
+                <default>false</default>
+                <label>Chatter Support Team</label>
+            </value>
+            <value>
+                <fullName>Customer Service Team</fullName>
+                <default>false</default>
+                <label>Customer Service Team</label>
+            </value>
+            <value>
+                <fullName>MCloud Support Team</fullName>
+                <default>false</default>
+                <label>MCloud Support Team</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

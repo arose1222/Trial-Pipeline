@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Analytics_Support</fullName>
+    <active>true</active>
+    <businessProcess>Analytics Support</businessProcess>
+    <description>For help with CRMA Analytics</description>
+    <label>Analytics Support</label>
+    <picklistValues>
+        <picklist>Assigned_Team__c</picklist>
+        <values>
+            <fullName>AXIS Business Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AXIS Integration Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chatter Support Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LMS Support Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCloud Support Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SFDC Support Team</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
