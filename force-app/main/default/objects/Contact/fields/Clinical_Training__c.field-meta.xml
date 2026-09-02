@@ -57,6 +57,11 @@ CID-005926 - Added &quot;N/A&quot; option</description>
                 <label>Physician’s Assistant</label>
             </value>
             <value>
+                <fullName>Mark Dev3 Clinical Training Add</fullName>
+                <default>false</default>
+                <label>Mark Dev3 Clinical Training Add</label>
+            </value>
+            <value>
                 <fullName>Scrub Technician</fullName>
                 <default>false</default>
                 <label>Scrub Technician</label>
