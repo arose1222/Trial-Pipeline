@@ -5,4 +5,19 @@
     <businessProcess>Surgeon Opportunity</businessProcess>
     <compactLayoutAssignment>Opportunity_Surgeon_Compact_Lauout</compactLayoutAssignment>
     <label>Arthroplasty/Spine Surgeon Opportunity</label>
+    <picklistValues>
+        <picklist>Mark_Picklist_on_Opportunity__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

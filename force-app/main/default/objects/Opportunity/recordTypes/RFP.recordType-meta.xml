@@ -5,4 +5,19 @@
     <businessProcess>RFP</businessProcess>
     <compactLayoutAssignment>RFP_Compact_Layout</compactLayoutAssignment>
     <label>RFP</label>
+    <picklistValues>
+        <picklist>Mark_Picklist_on_Opportunity__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

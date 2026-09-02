@@ -5,4 +5,19 @@
     <businessProcess>Vet Opportunity</businessProcess>
     <compactLayoutAssignment>Vet_Opportunity_Compact_Layout</compactLayoutAssignment>
     <label>Vet Opportunity</label>
+    <picklistValues>
+        <picklist>Mark_Picklist_on_Opportunity__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

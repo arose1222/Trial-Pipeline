@@ -5,4 +5,19 @@
     <businessProcess>Product Conversion</businessProcess>
     <compactLayoutAssignment>ARTX_Compact_Layout</compactLayoutAssignment>
     <label>Product Conversion</label>
+    <picklistValues>
+        <picklist>Mark_Picklist_on_Opportunity__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>
