@@ -5,4 +5,43 @@
     <compactLayoutAssignment>Custom_Person_Account_Compact_Layout</compactLayoutAssignment>
     <description>Health Care Providers Surgeons are: MD, DO, DPM</description>
     <label>Primary HCP</label>
+    <picklistValues>
+        <picklist>Clinical_Training__pc</picklist>
+        <values>
+            <fullName>DPM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD%2FDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mark Dev1 Clinical Training Add</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurse Practitioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physician%E2%80%99s Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scrub Technician</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>

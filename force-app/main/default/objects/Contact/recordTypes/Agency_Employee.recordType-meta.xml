@@ -4,4 +4,55 @@
     <active>true</active>
     <description>Agency Employee</description>
     <label>Agency Employee</label>
+    <picklistValues>
+        <picklist>Clinical_Training__c</picklist>
+        <values>
+            <fullName>Athletic Trainer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DPM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD%2FDO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mark Dev1 Clinical Training Add</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurse Practitioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical Therapist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physician%E2%80%99s Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scrub Technician</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
 </RecordType>
