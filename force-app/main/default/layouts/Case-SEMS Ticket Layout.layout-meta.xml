@@ -117,14 +117,6 @@
                 <behavior>Readonly</behavior>
                 <field>SuppliedEmail</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>ContactPhone</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>VRA_Resolved__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -138,11 +130,19 @@
                 <behavior>Readonly</behavior>
                 <field>SLA_Flag_16_Pixels__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>ContactPhone</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>SLA_Status__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>AnkleSprain_com__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -160,6 +160,10 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>Type</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>VRA_Resolved__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
