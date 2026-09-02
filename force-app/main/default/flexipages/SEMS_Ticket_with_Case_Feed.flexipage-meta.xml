@@ -195,6 +195,16 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>forceChatter:recordFeedContainer</componentName>
+                <identifier>forceChatter_recordFeedContainer</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-8437628d-835c-4c2c-a500-3de6b34955db</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>decorate</name>
                     <value>true</value>
@@ -227,16 +237,6 @@
             </componentInstance>
         </itemInstances>
         <name>Facet-1b3fe592-dbd1-41d1-89f6-f26efaa3ae62</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>forceChatter:recordFeedContainer</componentName>
-                <identifier>forceChatter_recordFeedContainer</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>Facet-8437628d-835c-4c2c-a500-3de6b34955db</name>
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -429,6 +429,24 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>active</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-8437628d-835c-4c2c-a500-3de6b34955db</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Ticket Feed</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+                <identifier>customTab</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
                     <name>body</name>
                     <value>Facet-1b3fe592-dbd1-41d1-89f6-f26efaa3ae62</value>
                 </componentInstanceProperties>
@@ -451,24 +469,6 @@
                         <rightValue>true</rightValue>
                     </criteria>
                 </visibilityRule>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>active</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>body</name>
-                    <value>Facet-8437628d-835c-4c2c-a500-3de6b34955db</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>title</name>
-                    <value>Ticket Feed</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:tab</componentName>
-                <identifier>customTab</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -1142,9 +1142,9 @@
                 <identifier>force_relatedListSingleContainer2</identifier>
                 <visibilityRule>
                     <criteria>
-                        <leftValue>{!Record.Account_Bill_To_Address__c}</leftValue>
+                        <leftValue>{!Record.Account__c}</leftValue>
                         <operator>CONTAINS</operator>
-                        <rightValue>Arthrex_Dev3</rightValue>
+                        <rightValue>Arthrex</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>
