@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Non_Surgeons</fullName>
+    <fullName>Arthrex_Sales</fullName>
     <active>true</active>
-    <compactLayoutAssignment>Secondary_HCP_Compact_Layout</compactLayoutAssignment>
-    <description>Non-Surgeons are: HCP (RN, PA, NP) or Office Personnel</description>
-    <label>Secondary HCP</label>
+    <description>Arthrex Sales</description>
+    <label>Arthrex Sales</label>
     <picklistValues>
-        <picklist>Clinical_Training__pc</picklist>
+        <picklist>Clinical_Training__c</picklist>
         <values>
             <fullName>DPM</fullName>
             <default>false</default>

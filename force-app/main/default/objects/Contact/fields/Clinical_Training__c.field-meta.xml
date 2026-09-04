@@ -71,6 +71,11 @@ CID-005926 - Added &quot;N/A&quot; option</description>
                 <default>false</default>
                 <label>N/A</label>
             </value>
+            <value>
+                <fullName>Mark Dev2 Clinical Training Add</fullName>
+                <default>false</default>
+                <label>Mark Dev2 Clinical Training Add</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
