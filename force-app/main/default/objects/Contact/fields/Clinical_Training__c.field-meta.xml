@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Clinical_Training__c</fullName>
     <description>Added  &apos;Athletic Trainer&apos; and &apos;Physical Therapist&apos; to picklist in alphabetical order in reference to CID-005782
-CID-005926 - Added &quot;N/A&quot; option</description>
+CID-005926 - Added &quot;N/A&quot; option. Sept 9th</description>
     <label>Clinical Training</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
@@ -70,6 +70,11 @@ CID-005926 - Added &quot;N/A&quot; option</description>
                 <fullName>Mark Dev2 Clinical Training Add</fullName>
                 <default>false</default>
                 <label>Mark Dev2 Clinical Training Add</label>
+            </value>
+            <value>
+                <fullName>Mark Dev2 Sept 9th</fullName>
+                <default>false</default>
+                <label>Mark Dev2 Sept 9th</label>
             </value>
         </valueSetDefinition>
     </valueSet>

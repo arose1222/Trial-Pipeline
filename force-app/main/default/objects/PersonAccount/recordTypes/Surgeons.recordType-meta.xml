@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Non_Surgeons</fullName>
+    <fullName>Surgeons</fullName>
     <active>true</active>
-    <compactLayoutAssignment>Secondary_HCP_Compact_Layout</compactLayoutAssignment>
-    <description>Non-Surgeons are: HCP (RN, PA, NP) or Office Personnel</description>
-    <label>Secondary HCP</label>
+    <compactLayoutAssignment>Custom_Person_Account_Compact_Layout</compactLayoutAssignment>
+    <description>Health Care Providers Surgeons are: MD, DO, DPM</description>
+    <label>Primary HCP</label>
     <picklistValues>
         <picklist>AXIS_Status__pc</picklist>
         <values>
@@ -68,373 +68,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Account_Fiscal_Year_End_Day__c</picklist>
-        <values>
-            <fullName>1</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>13</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>14</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>15</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>16</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>17</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>18</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>19</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>20</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>21</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>22</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>23</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>24</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>25</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>26</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>27</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>28</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>29</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>30</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>31</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Account_Fiscal_Year_End_Month__c</picklist>
-        <values>
-            <fullName>April</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>August</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>December</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>February</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>January</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>July</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>June</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>March</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>May</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>November</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>October</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>September</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Account_Fiscal_Year_Start_Day__c</picklist>
-        <values>
-            <fullName>1</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>13</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>14</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>15</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>16</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>17</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>18</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>19</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>20</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>21</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>22</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>23</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>24</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>25</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>26</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>27</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>28</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>29</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>30</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>31</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Account_Fiscal_Year_Start_Month__c</picklist>
-        <values>
-            <fullName>April</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>August</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>December</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>February</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>January</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>July</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>June</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>March</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>May</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>November</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>October</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>September</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Account_Type__c</picklist>
-        <values>
-            <fullName>Regular Account</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Split Account</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Additional_Responsibilities__pc</picklist>
         <values>
             <fullName>AXIS Admin</fullName>
@@ -448,27 +81,7 @@
     <picklistValues>
         <picklist>Additional_Training_Interests__pc</picklist>
         <values>
-            <fullName>Arthroplasty</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Imaging %26 Resection</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Not Applicable</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Orthobiologics</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Sports Medicine</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Veterinary</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -792,396 +405,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Business_Hours_End__c</picklist>
-        <values>
-            <fullName>1%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A30PM</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Business_Hours_Start__c</picklist>
-        <values>
-            <fullName>1%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A30PM</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Calcium_Sulfate_Beads__c</picklist>
         <values>
             <fullName>Arthrex Biobeads</fullName>
@@ -1380,53 +603,6 @@
         </values>
         <values>
             <fullName>Arthrex-Research %26 Education</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Company_Orthopedic_Sales__pc</picklist>
-        <values>
-            <fullName>AccuMed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ConMed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>DePuy Synthes</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Exactech</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Medtronic</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Orthofix</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Smith %26 Nephew</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Stryker</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Wright Medical</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Zimmer Biomet</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -2644,21 +1820,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Customer_Request__pc</picklist>
-        <values>
-            <fullName>Have an Arthrex Tech Contact Me</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Request a Quote</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Surgical Evaluation</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>DBM__c</picklist>
         <values>
             <fullName>Arthrex Allosync</fullName>
@@ -2688,19 +1849,19 @@
     <picklistValues>
         <picklist>Designation__pc</picklist>
         <values>
-            <fullName>APRN-CNM</fullName>
+            <fullName>ACVS</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>APRN-CNS</fullName>
+            <fullName>ACVS-LA</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>APRN-CRNA</fullName>
+            <fullName>ACVS-SA</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>APRN-NP</fullName>
+            <fullName>ACVSMR</fullName>
             <default>false</default>
         </values>
         <values>
@@ -2708,35 +1869,31 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>AT</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>BVSc</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>CAA</fullName>
+            <fullName>DDS</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>CMA</fullName>
+            <fullName>DMD</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>CNA</fullName>
+            <fullName>DO</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>CVT%2FRVT</fullName>
+            <fullName>DPM</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>DC</fullName>
+            <fullName>DVM</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>DPT</fullName>
+            <fullName>EBVS</fullName>
             <default>false</default>
         </values>
         <values>
@@ -2744,15 +1901,27 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>LPN</fullName>
+            <fullName>FACFAS</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>LVN</fullName>
+            <fullName>Fellow</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>MBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MBBCh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MBBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD</fullName>
             <default>false</default>
         </values>
         <values>
@@ -2764,10 +1933,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>MPT</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>MS</fullName>
             <default>false</default>
         </values>
@@ -2776,11 +1941,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>ND</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>OT</fullName>
+            <fullName>OD</fullName>
             <default>false</default>
         </values>
         <values>
@@ -2788,35 +1949,15 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>PA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>PT</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Perfusionist</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>PhD</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>RN</fullName>
+            <fullName>Resident</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>RNFA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Surgical Technologist</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Technician</fullName>
+            <fullName>VMD</fullName>
             <default>false</default>
         </values>
         <values>
@@ -3019,33 +2160,6 @@
         </values>
         <values>
             <fullName>W2 - Full%2FPart Time Employee</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Exhibit_Lead__pc</picklist>
-        <values>
-            <fullName>AAOS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>AOFAS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>AOSSM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ESCH</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Fall AANA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Spring AANA</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -5257,17 +4371,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Orthopedic_Sales__pc</picklist>
-        <values>
-            <fullName>No</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Yes</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Other_Opportunity_Competitor__pc</picklist>
         <values>
             <fullName>Acumed</fullName>
@@ -5420,21 +4523,6 @@
         </values>
         <values>
             <fullName>Venturer</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Please_send_me_the_following_newsletters__pc</picklist>
-        <values>
-            <fullName>DEX Ortho Update - Foot %26 Ankle - List</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>DEX Ortho Update - Hand %26 Wrist - List</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Scope This Out - List</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -5845,17 +4933,6 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Required_to_Change_Scrubs__c</picklist>
-        <values>
-            <fullName>No</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Yes</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
         <picklist>Rotator_Cuff_Augmentation__c</picklist>
         <values>
             <fullName>Arthrex ArthroFlex</fullName>
@@ -5897,17 +4974,6 @@
         </values>
         <values>
             <fullName>Arthrex Presenter Portal</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>SURVEY_Have_you_utilized_the_InternalB__pc</picklist>
-        <values>
-            <fullName>Not Applicable</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Yes - List%3A InternalBrace Used in Practice                                                                               No - List%3A InternalBrace NOT Used in Practice</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -12914,396 +11980,6 @@
         </values>
         <values>
             <fullName>Åland Islands</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Sterile_Processing_Hours_End__c</picklist>
-        <values>
-            <fullName>1%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A30PM</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Sterile_Processing_Hours_Start__c</picklist>
-        <values>
-            <fullName>1%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>1%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>10%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>11%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>12%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>2%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>3%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>4%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>5%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>6%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>7%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>8%3A30PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A00AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A00PM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A30AM</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>9%3A30PM</fullName>
             <default>false</default>
         </values>
     </picklistValues>
