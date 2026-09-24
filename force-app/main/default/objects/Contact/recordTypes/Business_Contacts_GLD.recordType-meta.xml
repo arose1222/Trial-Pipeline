@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Agency_Employee</fullName>
+    <fullName>Business_Contacts_GLD</fullName>
     <active>true</active>
-    <description>Agency Employee</description>
-    <label>Agency Employee</label>
+    <description>Contact Record types for business related Account contacts.</description>
+    <label>Business Contacts</label>
     <picklistValues>
         <picklist>AXIS_Status__c</picklist>
         <values>
@@ -46,43 +46,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Agency Analyst</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Arthrex Experience</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Business Development Support</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Compliance</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Driver</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Find a Doctor</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Human Resources</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>MedEd Support</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Sales Optimization Support</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Transparency Reporting</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -249,10 +217,6 @@
     <picklistValues>
         <picklist>Clinical_Training__c</picklist>
         <values>
-            <fullName>Athletic Trainer</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>DPM</fullName>
             <default>false</default>
         </values>
@@ -261,15 +225,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Mark Dev3 Clinical Training Add</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Medical Assistant</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>N%2FA</fullName>
             <default>false</default>
         </values>
         <values>
@@ -282,10 +238,6 @@
         </values>
         <values>
             <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Physical Therapist</fullName>
             <default>false</default>
         </values>
         <values>
@@ -319,10 +271,6 @@
             <fullName>5</fullName>
             <default>false</default>
         </values>
-        <values>
-            <fullName>N%2FA</fullName>
-            <default>false</default>
-        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Collegiate_Sport__c</picklist>
@@ -352,10 +300,6 @@
         </values>
         <values>
             <fullName>Lacrosse</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>N%2FA</fullName>
             <default>false</default>
         </values>
         <values>
@@ -441,15 +385,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Globus</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Medtronic</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>N%2FA</fullName>
             <default>false</default>
         </values>
         <values>
@@ -886,22 +822,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>AT</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>CMA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>DC</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>DDS</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>DO</fullName>
             <default>false</default>
         </values>
@@ -918,10 +838,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Fellow</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>MBBS</fullName>
             <default>false</default>
         </values>
@@ -934,39 +850,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Other</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>PA</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>PT</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>PhD</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>RN</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Resident</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Student</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Technician</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>VMD</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -1037,14 +925,6 @@
     </picklistValues>
     <picklistValues>
         <picklist>ECI_Level__c</picklist>
-        <values>
-            <fullName>ECI Participant</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ECI Sales Leader</fullName>
-            <default>false</default>
-        </values>
         <values>
             <fullName>Not Applicable</fullName>
             <default>false</default>
@@ -3737,10 +3617,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>N%2FA</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Navy</fullName>
             <default>false</default>
         </values>
@@ -3753,14 +3629,6 @@
         </values>
         <values>
             <fullName>Inactive</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>N%2FA</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Reserves</fullName>
             <default>false</default>
         </values>
         <values>
@@ -6057,10 +5925,6 @@
             <fullName>5</fullName>
             <default>false</default>
         </values>
-        <values>
-            <fullName>N%2FA</fullName>
-            <default>false</default>
-        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Professional_Sport__c</picklist>
@@ -6090,10 +5954,6 @@
         </values>
         <values>
             <fullName>Lacrosse</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>N%2FA</fullName>
             <default>false</default>
         </values>
         <values>
@@ -6148,10 +6008,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>District Director</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Human Resources</fullName>
             <default>false</default>
         </values>
@@ -6189,14 +6045,6 @@
         </values>
         <values>
             <fullName>Service Technician</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Territory</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Territory Lead</fullName>
             <default>false</default>
         </values>
         <values>
@@ -6316,62 +6164,6 @@
             <fullName>Corporate Transfer</fullName>
             <default>false</default>
         </values>
-        <values>
-            <fullName>Death</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Long Term Disability%2FSickness</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Non-Competitive Medical Device</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other Opportunity - Competitor</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Other Opportunity - Left Industry</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Performance</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Personal%2FFamily</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Policy</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Position Eliminated</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Probation Period</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Relocation</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Retirement</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Temporary Leave</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Wage%2FPay Concerns</fullName>
-            <default>false</default>
-        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Type__c</picklist>
@@ -6380,7 +6172,15 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>International Distributor</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
             <default>false</default>
         </values>
     </picklistValues>
