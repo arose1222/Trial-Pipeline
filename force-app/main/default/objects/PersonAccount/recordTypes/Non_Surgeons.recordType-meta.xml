@@ -6,6 +6,45 @@
     <description>Non-Surgeons are: HCP (RN, PA, NP) or Office Personnel</description>
     <label>Secondary HCP</label>
     <picklistValues>
+        <picklist>AXIS_Status__pc</picklist>
+        <values>
+            <fullName>AXIS Status Mark Picklist Dev1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Archived</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deceased</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unassigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unidentified</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Clinical_Training__pc</picklist>
         <values>
             <fullName>DPM</fullName>
