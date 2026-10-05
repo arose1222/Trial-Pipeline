@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSrcDataModelFieldMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterApplied>false</filterApplied>
+    <masterLabel>Usage_Agreement_Test_CopadoDatabricks_Databricks_DataOne_ConnectionMonthly_Revenue_NeededContract_Lifecycle_Tracker_DMOMonthly_Revenue_NeededZeAddPNoYVhXLtj</masterLabel>
+    <sourceField>Usage_Agreements_Milestones_DLO2.Monthly_Revenue_Needed__c</sourceField>
+    <targetField>Contract_Lifecycle_Tracker_DMO__dlm.Monthly_Revenue_Needed__c</targetField>
+    <templateVersion>1</templateVersion>
+    <versionNumber>1.0</versionNumber>
+</DataSrcDataModelFieldMap>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataPackageKitObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>Usage_Agreement_Test_Copado</masterLabel>
+    <parentDataPackageKitDefinitionName>Usage_Agreement_Test_Copado</parentDataPackageKitDefinitionName>
+    <referenceObjectName>Databricks_Stream_Bundle1</referenceObjectName>
+    <referenceObjectType>DataSourceBundleDefinition</referenceObjectType>
+</DataPackageKitObject>
