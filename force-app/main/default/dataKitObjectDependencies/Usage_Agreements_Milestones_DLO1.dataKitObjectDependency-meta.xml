@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>Usage_Agreement_Test_Copado</dataPackageKitDef>
+    <developerName>Usage_Agreements_Milestones_DLO1</developerName>
+    <masterLabel>Usage_Agreements_Milestones_DLO__dll</masterLabel>
+    <sourceObject>Usage_Agreements_Milestones_DLO2</sourceObject>
+    <sourceObjectType>DataSourceObject</sourceObjectType>
+    <targetObject>Usage_Agreements_Milestones_DLO1</targetObject>
+</DataKitObjectDependency>

@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceObject xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <accelerationEnabled>NO</accelerationEnabled>
+    <dataSource>Databricks_Databricks_DataOne_Connection</dataSource>
+    <dataSourceFields>
+        <fullName>Active_Months_in_Evaluated_Period</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>BIGINT</externalDataType>
+        <externalName>Active_Months_in_Evaluated_Period</externalName>
+        <fieldFormula>sourceField[&apos;Active_Months_in_Evaluated_Period&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Active_Months_in_Evaluated_Period</keyQualifierName>
+        <masterLabel>Active_Months_in_Evaluated_Period</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Actual_Sales_as_of</fullName>
+        <datatype>F</datatype>
+        <dateFormat>MM/dd/yyyy HH:mm:ss.SSS</dateFormat>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>TIMESTAMP_NTZ</externalDataType>
+        <externalName>Actual_Sales_as_of</externalName>
+        <fieldFormula>sourceField[&apos;Actual_Sales_as_of&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Actual_Sales_as_of</keyQualifierName>
+        <masterLabel>Actual_Sales_as_of</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber>1.0</versionNumber>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Actual_Sales_Past_6_Months</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Actual_Sales_Past_6_Months</externalName>
+        <fieldFormula>sourceField[&apos;Actual_Sales_Past_6_Months&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Actual_Sales_Past_6_Months</keyQualifierName>
+        <masterLabel>Actual_Sales_Past_6_Months</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Actual_Sales_To_Date</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Actual_Sales_To_Date</externalName>
+        <fieldFormula>sourceField[&apos;Actual_Sales_To_Date&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Actual_Sales_To_Date</keyQualifierName>
+        <masterLabel>Actual_Sales_To_Date</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agency_Actual_Sales_Fulfilled</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Agency_Actual_Sales_Fulfilled</externalName>
+        <fieldFormula>sourceField[&apos;Agency_Actual_Sales_Fulfilled&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agency_Actual_Sales_Fulfilled</keyQualifierName>
+        <masterLabel>Agency_Actual_Sales_Fulfilled</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agency_Actual_Sales_Percent_Fulfilled</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Agency_Actual_Sales_Percent_Fulfilled</externalName>
+        <fieldFormula>sourceField[&apos;Agency_Actual_Sales_Percent_Fulfilled&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agency_Actual_Sales_Percent_Fulfilled</keyQualifierName>
+        <masterLabel>Agency_Actual_Sales_Percent_Fulfilled</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agency_Actual_Sales_to_Req_Sales_Percent</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Agency_Actual_Sales_to_Required_Sales_to_Date_Percent</externalName>
+        <fieldFormula>sourceField[&apos;Agency_Actual_Sales_to_Required_Sales_to_Date_Percent&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agency_Actual_Sales_to_Req_Sales_Perc</keyQualifierName>
+        <masterLabel>Agency_Actual_Sales_to_Req_Sales_Percent</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agency_Avg_Required_Monthly_Sales</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Agency_Avg_Required_Monthly_Sales</externalName>
+        <fieldFormula>sourceField[&apos;Agency_Avg_Required_Monthly_Sales&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agency_Avg_Required_Monthly_Sales</keyQualifierName>
+        <masterLabel>Agency_Avg_Required_Monthly_Sales</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agency_Over_Under_Sales</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Agency_Over_Under_Sales</externalName>
+        <fieldFormula>sourceField[&apos;Agency_Over_Under_Sales&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agency_Over_Under_Sales</keyQualifierName>
+        <masterLabel>Agency_Over_Under_Sales</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>agency_required_sales</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Agency_Required_Sales</externalName>
+        <fieldFormula>sourceField[&apos;Agency_Required_Sales&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_agency_required_sales</keyQualifierName>
+        <masterLabel>Agency_Required_Sales</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agency_Required_Sales_to_Date</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Agency_Required_Sales_to_Date</externalName>
+        <fieldFormula>sourceField[&apos;Agency_Required_Sales_to_Date&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agency_Required_Sales_to_Date</keyQualifierName>
+        <masterLabel>Agency_Required_Sales_to_Date</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agency_Target_Sales</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Agency_Target_Sales</externalName>
+        <fieldFormula>sourceField[&apos;Agency_Target_Sales&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agency_Target_Sales</keyQualifierName>
+        <masterLabel>Agency_Target_Sales</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agreement_End_Date</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>STRING</externalDataType>
+        <externalName>Agreement_End_Date</externalName>
+        <fieldFormula>sourceField[&apos;Agreement_End_Date&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agreement_End_Date</keyQualifierName>
+        <masterLabel>Agreement_End_Date</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agreement_Number</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>STRING</externalDataType>
+        <externalName>Agreement_Number</externalName>
+        <fieldFormula>sourceField[&apos;Agreement_Number&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agreement_Number</keyQualifierName>
+        <masterLabel>Agreement_Number</masterLabel>
+        <primaryIndexOrder>1</primaryIndexOrder>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agreement_Remaining</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Agreement_Remaining</externalName>
+        <fieldFormula>sourceField[&apos;Agreement_Remaining&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agreement_Remaining</keyQualifierName>
+        <masterLabel>Agreement_Remaining</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agreement_Start_Date</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>STRING</externalDataType>
+        <externalName>Agreement_Start_Date</externalName>
+        <fieldFormula>sourceField[&apos;Agreement_Start_Date&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agreement_Start_Date</keyQualifierName>
+        <masterLabel>Agreement_Start_Date</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agreement_Status</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>STRING</externalDataType>
+        <externalName>Agreement_Status</externalName>
+        <fieldFormula>sourceField[&apos;Agreement_Status&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agreement_Status</keyQualifierName>
+        <masterLabel>Agreement_Status</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Agreement_Type</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>STRING</externalDataType>
+        <externalName>Agreement_Type</externalName>
+        <fieldFormula>sourceField[&apos;Agreement_Type&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Agreement_Type</keyQualifierName>
+        <masterLabel>Agreement_Type</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Average_Monthly_Revenue</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Average_Monthly_Revenue</externalName>
+        <fieldFormula>sourceField[&apos;Average_Monthly_Revenue&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Average_Monthly_Revenue</keyQualifierName>
+        <masterLabel>Average_Monthly_Revenue</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Customer</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>STRING</externalDataType>
+        <externalName>Customer</externalName>
+        <fieldFormula>sourceField[&apos;Customer&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Customer</keyQualifierName>
+        <masterLabel>Customer</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>CustomerID</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>STRING</externalDataType>
+        <externalName>CustomerID</externalName>
+        <fieldFormula>sourceField[&apos;CustomerID&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_CustomerID</keyQualifierName>
+        <masterLabel>CustomerID</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSource</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSource</externalName>
+        <fieldFormula>Databricks_Databricks_DataOne_Connection</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>true</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_DataSource</keyQualifierName>
+        <masterLabel>Data Source</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>DataSourceObject</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>DataSourceObject</externalName>
+        <fieldFormula>it_salesforce_data360_global_conformed_vw_agreements_with_expired</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>true</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_DataSourceObject</keyQualifierName>
+        <masterLabel>Data Source Object</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Est_Final_Agency_Over_Under_Sales</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Est_Final_Agency_Over_Under_Sales</externalName>
+        <fieldFormula>sourceField[&apos;Est_Final_Agency_Over_Under_Sales&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Est_Final_Agency_Over_Under_Sales</keyQualifierName>
+        <masterLabel>Est_Final_Agency_Over_Under_Sales</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Est_Final_Agency_Sales</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Est_Final_Agency_Sales</externalName>
+        <fieldFormula>sourceField[&apos;Est_Final_Agency_Sales&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Est_Final_Agency_Sales</keyQualifierName>
+        <masterLabel>Est_Final_Agency_Sales</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Est_Final_Sales_Percent_Fulfilled</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Est_Final_Sales_Percent_Fulfilled</externalName>
+        <fieldFormula>sourceField[&apos;Est_Final_Sales_Percent_Fulfilled&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Est_Final_Sales_Percent_Fulfilled</keyQualifierName>
+        <masterLabel>Est_Final_Sales_Percent_Fulfilled</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Estimated_Contract_Completion_Amount</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Estimated_Contract_Completion_Amount</externalName>
+        <fieldFormula>sourceField[&apos;Estimated_Contract_Completion_Amount&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Estimated_Contract_Completion_Amount</keyQualifierName>
+        <masterLabel>Estimated_Contract_Completion_Amount</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Estimated_Contract_Completion_Percentage</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Estimated_Contract_Completion_Percentage</externalName>
+        <fieldFormula>sourceField[&apos;Estimated_Contract_Completion_Percentage&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Estimated_Contract_Completion_Percent</keyQualifierName>
+        <masterLabel>Estimated_Contract_Completion_Percentage</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>InternalOrganization</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>System</definitionCreationType>
+        <externalName>InternalOrganization</externalName>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>true</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_InternalOrganization</keyQualifierName>
+        <masterLabel>Internal Organization</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Monthly_Revenue_Needed</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Monthly_Revenue_Needed</externalName>
+        <fieldFormula>sourceField[&apos;Monthly_Revenue_Needed&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Monthly_Revenue_Needed</keyQualifierName>
+        <masterLabel>Monthly_Revenue_Needed</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Months_Passed_in_Evaluated_Period</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>BIGINT</externalDataType>
+        <externalName>Months_Passed_in_Evaluated_Period</externalName>
+        <fieldFormula>sourceField[&apos;Months_Passed_in_Evaluated_Period&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Months_Passed_in_Evaluated_Period</keyQualifierName>
+        <masterLabel>Months_Passed_in_Evaluated_Period</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Over_Under</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Over_Under</externalName>
+        <fieldFormula>sourceField[&apos;Over_Under&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Over_Under</keyQualifierName>
+        <masterLabel>Over_Under</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Percent_Actual_To_Target</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Percent_Actual_To_Target</externalName>
+        <fieldFormula>sourceField[&apos;Percent_Actual_To_Target&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Percent_Actual_To_Target</keyQualifierName>
+        <masterLabel>Percent_Actual_To_Target</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Percent_Fulfilled_To_Required</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Percent_Fulfilled_To_Required</externalName>
+        <fieldFormula>sourceField[&apos;Percent_Fulfilled_To_Required&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Percent_Fulfilled_To_Required</keyQualifierName>
+        <masterLabel>Percent_Fulfilled_To_Required</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Percent_Required_To_Target</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Percent_Required_To_Target</externalName>
+        <fieldFormula>sourceField[&apos;Percent_Required_To_Target&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Percent_Required_To_Target</keyQualifierName>
+        <masterLabel>Percent_Required_To_Target</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>Required_Sales_To_Date</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>Required_Sales_To_Date</externalName>
+        <fieldFormula>sourceField[&apos;Required_Sales_To_Date&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_Required_Sales_To_Date</keyQualifierName>
+        <masterLabel>Required_Sales_To_Date</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>SAP_BP_Agreement_Target</fullName>
+        <datatype>N</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>DECIMAL</externalDataType>
+        <externalName>SAP_BP_Agreement_Target</externalName>
+        <fieldFormula>sourceField[&apos;SAP_BP_Agreement_Target&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_SAP_BP_Agreement_Target</keyQualifierName>
+        <masterLabel>SAP_BP_Agreement_Target</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <dataSourceFields>
+        <fullName>SAP_Contract_Status</fullName>
+        <datatype>S</datatype>
+        <definitionCreationType>Custom</definitionCreationType>
+        <externalDataType>STRING</externalDataType>
+        <externalName>SAP_Contract_Status</externalName>
+        <fieldFormula>sourceField[&apos;SAP_Contract_Status&apos;]</fieldFormula>
+        <isDataRequired>false</isDataRequired>
+        <isEventDate>false</isEventDate>
+        <isFormula>false</isFormula>
+        <isRecordModified>false</isRecordModified>
+        <keyQualifierName>KQ_SAP_Contract_Status</keyQualifierName>
+        <masterLabel>SAP_Contract_Status</masterLabel>
+        <sequence xsi:nil="true"/>
+        <usageTag>NONE</usageTag>
+        <versionNumber xsi:nil="true"/>
+    </dataSourceFields>
+    <externalDatabaseName>dataone</externalDatabaseName>
+    <externalObjectName>vw_agreements_with_expired</externalObjectName>
+    <externalRecordIdentifier>vw_agreements_with_expired</externalRecordIdentifier>
+    <externalSchemaName>it_salesforce_data360_global_conformed</externalSchemaName>
+    <masterLabel>Usage_Agreements_Milestones_DLO</masterLabel>
+    <objectType>Object</objectType>
+    <sourceObject>Usage_Agreements_Milestones_DLO__dll</sourceObject>
+    <storageType>EXTERNAL</storageType>
+    <templateVersion>1</templateVersion>
+</DataSourceObject>
