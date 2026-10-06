@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_access_to_create_WO</fullName>
+    <active>true</active>
+    <description>CID-00 : Do not provide access to create a WO as part of Field Service MVP Iteration 1. Deactivated on purpose as part of FSE Iteration 2.</description>
+    <errorConditionFormula>AND(
+ISNEW(),
+ City = &apos;Copado Dev3&apos;
+)</errorConditionFormula>
+    <errorMessage>You do not have access to create a Work Order.</errorMessage>
+</ValidationRule>

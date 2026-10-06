@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CID-009824 : Created Permission Set to Bypass Task Notifications for Bulk Task Loads</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Bypass Task Notifications</label>
+    <license>Salesforce</license>
+</PermissionSet>
