@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSrcDataModelFieldMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterApplied>false</filterApplied>
+    <masterLabel>Usage_Agreement_Test_CopadoDatabricks_Databricks_DataOne_ConnectionEst_Final_Agency_Over_Under_SalesContract_Lifecycle_Tracker_DMOEst_Final_Agency_Over_Under_SalesXiVYlNVtWTXgQZP</masterLabel>
+    <sourceField>Usage_Agreements_Milestones_DLO2.Est_Final_Agency_Over_Under_Sales__c</sourceField>
+    <targetField>Contract_Lifecycle_Tracker_DMO__dlm.Est_Final_Agency_Over_Under_Sales__c</targetField>
+    <templateVersion>1</templateVersion>
+    <versionNumber>1.0</versionNumber>
+</DataSrcDataModelFieldMap>
